@@ -1,0 +1,87 @@
+body{
+    
+    -webkit-appearance: none;
+}
+
+
+.dflex{
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    justify-content:center;
+    padding-top:100px;
+
+}
+.nav-link{
+    color:#555;
+    text-decoration:none;
+    align-self:center;
+}
+
+header{
+    display:grid;
+    grid-template-columns:5% 78% 5% 5% 3% 3%;
+    
+    
+}
+
+
+.flex-form{
+    display:flex;
+    width:500px;
+}
+
+input{
+    border-radius:40px;
+    padding:10px;
+    border-color:rgba(209, 209, 209, 0.726);
+    width:100%;
+
+}
+
+.flex-buttons{
+    display:flex;
+    justify-content:center;  
+}
+
+button{
+    margin:20px;
+    background-color:rgb(241, 240, 240);
+    border:none;
+    padding:10px;
+    border-radius:5px;
+}
+
+.covid-blurb{
+    display:flex;
+    flex-direction:row;
+    justify-content:center;
+   
+}
+.mag{
+    position:relative;
+    left:50px;
+    top:12px;
+}
+
+.mic{
+    position:relative;
+    left:475px;
+    bottom:10px;
+}
+
+  footer{
+      position:absolute;
+      bottom:0px;
+      width:100%;
+      background-color:rgb(231, 230, 230);
+      display:grid;
+      grid-template-columns:7% 7% 10% 55% 7% 7% 7%;
+  }
+  .footer-link{
+     
+    color:#555;
+    text-decoration:none;
+    align-self:center;
+    justify-self:center;
+}
